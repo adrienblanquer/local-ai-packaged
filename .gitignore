@@ -5,3 +5,5 @@ shared/
 supabase/
 searxng/uwsgi.ini
 searxng/settings.yml
+.idea
+.idea/*
