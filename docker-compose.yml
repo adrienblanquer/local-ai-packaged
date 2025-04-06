@@ -113,6 +113,10 @@ services:
     container_name: caddy
     image: docker.io/library/caddy:2-alpine
     network_mode: host
+#    ports:
+#      - "8080:8080"
+#      - "443:443"
+#      - "80:80"
     restart: unless-stopped
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
